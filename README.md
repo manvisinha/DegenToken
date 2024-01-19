@@ -1,6 +1,6 @@
 # Degen Makeup Token
 
-The project is about Degen Makeup Token, allowing users to use tokens for makeup items and fun features in a beauty-focused world."
+The project is about Degen Makeup Token, allowing users to use tokens for makeup items and fun features in a beauty-focused world.
 
 ## Description
 This code is all about Degen Makeup Token, a special digital currency mixing beauty and blockchain. It does regular money stuff like creating and burning tokens, plus it lets users have fun redeeming makeup items and getting special discounts. 
