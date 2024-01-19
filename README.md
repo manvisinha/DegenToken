@@ -6,7 +6,8 @@ The project is about Degen Makeup Token, allowing users to use tokens for makeup
 This code is all about Degen Makeup Token, a special digital currency mixing beauty and blockchain. It does regular money stuff like creating and burning tokens, plus it lets users have fun redeeming makeup items and getting special discounts. 
 
 ## Getting Started
-## Executing program
+
+### Executing program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
    
     // SPDX-License-Identifier: MIT
