@@ -40,14 +40,29 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
         require(coupon_code== 5637, "You cannot avail this coupon.");
         _burn(msg.sender, item_number*80);
     }
-  }
+     }
 
-To deploy this contract on the Avalanche Fuji Testnet, you can use the following command:
-    
-    npx hardhat run/scripts/deploy.js --network fuji
-To verify the contract address, execute the following command:
-    
-    npx hardhat verify {address} --network fuji
+ **Compile the Contract:**
+   - Click the "Compile" button to compile the smart contract. Ensure a smooth compilation process without errors.
+
+ **Deploy to Avalanche Fuji Testnet:**
+   - Switch to the "Deploy & Run Transactions" tab in Remix.
+   - Opt for the "Injected Web3" environment in the "Environment" dropdown.
+   - Select the "DegenToken" contract from the "Deployed Contracts" section.
+   - Initiate deployment by clicking the "Deploy" button. Confirm the transaction using MetaMask or your injected web3 provider.
+
+ **Verify Contract on Avalanche Fuji Testnet:**
+   - After successful deployment, ensure contract verification on the Avalanche Fuji Testnet.
+   - In your terminal, execute the following command (replace `{address}` with the contract address):
+     ```
+     npx hardhat verify {address} --network fuji
+     ```
+   - This step guarantees transparency, allowing users to verify the authenticity of the deployed contract.
+
+ **Interact with the Contract:**
+   - Once deployed, interact with the contract through its provided functions.
+   - Mint tokens using the `mint` function, specifying the recipient's address and the desired amount.
+   - Redeem makeup items or avail discounts with the `redeem` and `discount` functions respectively.
 
 ## Authors
 
