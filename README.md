@@ -43,8 +43,8 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
      }
 
  **Compile the Contract:**
-   - Click the "Compile" button to compile the smart contract. Ensure a smooth compilation process without errors.
-
+   - Click the "Compile" button to compile the smart contract.
+   - 
  **Deploy to Avalanche Fuji Testnet:**
    - Switch to the "Deploy & Run Transactions" tab in Remix.
    - Opt for the "Injected Web3" environment in the "Environment" dropdown.
@@ -53,7 +53,7 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
  **Verify Contract on Avalanche Fuji Testnet:**
    - After successful deployment, ensure contract verification on the Avalanche Fuji Testnet.
-   - In your terminal, execute the following command (replace `{address}` with the contract address):
+   - In your terminal, execute the following command:
      ```
      npx hardhat verify {address} --network fuji
      ```
